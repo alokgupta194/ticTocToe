@@ -1,0 +1,97 @@
+.app-header {
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: #10192a;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-text {
+    vertical-align: baseline;
+    color: white;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
+}
+
+.square {
+    vertical-align: baseline;
+    width: 100px;
+    height: 100px;
+    font-size: 64px;
+    text-align: center;
+    color: #1CDBF5;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.fc-aqua {
+    color: #1CDBF5;
+}
+
+.fc-white {
+    color: white;
+}
+
+.fw-600 {
+    font-weight: bolder;
+}
+
+.row {
+    color: white;
+}
+
+.col {
+    height: 50px;
+    width: 50px;
+}
+
+.center {
+    vertical-align: baseline;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+
+.clear-button {
+    width: max-content;
+    margin: 40px auto 10px auto;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .heading-text {
+        vertical-align: baseline;
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 60px 10px;
+    }
+
+    .square {
+        vertical-align: baseline;
+        width: 80px;
+        height: 80px;
+        font-size: 32px;
+        font-weight: bolder;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.main{
+    margin: 20px;
+    padding: 20px;
+}
+.button {
+    width: max-content;
+    margin: 40px auto 5px auto;
+}
