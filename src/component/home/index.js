@@ -4,7 +4,7 @@ import "./style.scss";
 export default function Home() {
   return (
     <Layout>
-      <div class="container-fluid bg">
+      <div class=".container bg">
         <div class="row">
           <div class="col-12 col-md-8 d-flex justify-content-center">
             <Game />
