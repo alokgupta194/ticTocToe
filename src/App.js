@@ -1,11 +1,11 @@
-import Layout from "./component/hoc/layout";
-
+import Routes from "./routes";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 function App() {
   return (
-    <div className=".container bg">
-      <Layout />
-    </div>
+    <BrowserRouter>
+        <Routes/>
+    </BrowserRouter>
   );
 }
 

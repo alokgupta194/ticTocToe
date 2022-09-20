@@ -6,7 +6,7 @@ export default function header() {
     <>
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Tic Toc Toe Game</Navbar.Brand>
+          <Navbar.Brand href="/">Tic Toc Toe Game</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

@@ -1,14 +1,12 @@
-import Header from "../../header"
-import Home from "../../home"
-import Footer from "../../footer"
-import {BrowserRouter} from "react-router-dom"
+import Header from "../../header";
+import Footer from "../../footer";
 
-export default function layout(){
-    return(
-        <BrowserRouter>
-        <Header/>
-        <Home/>
-        <Footer/>
-        </BrowserRouter>
-    )
-};
+export default function layout({children}) {
+  return (
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
+  );
+}

@@ -1,5 +1,5 @@
 import React from "react";
-
+import './style.scss'
 const SquareComponent = (props) => {
     const classes = (props.className ? `${props.className} square` : `square`)
     return (

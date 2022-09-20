@@ -1,4 +1,6 @@
 import "./style.scss";
+import swal from 'sweetalert';
+
 import React, { useEffect, useState } from "react";
 import Button from 'react-bootstrap/Button';
 
@@ -56,14 +58,15 @@ export default function Logic() {
     let winner = checkWinner();
     if (winner) {
       clearGame();
-      alert(`Ta da ! ${winner} won the Game !`);
+      swal(`congratulations ! ! ${winner} won the Game !`);
+      
     }
   });
 
 
   return (
-    <div className="app-header">
-      <div className="row">
+    <div className="container app-header">
+      <div className="row gameRow">
         <div className="col center"  onClick={()=> onUserClicked(0)}>
           <SquareComponent state={gameState[0]}/>
         </div>
@@ -74,7 +77,7 @@ export default function Logic() {
           <SquareComponent state={gameState[2]} />
         </div>
       </div>
-      <div className="row">
+      <div className="row gameRow">
         <div className="col center" onClick={()=> onUserClicked(3)}>
           <SquareComponent state={gameState[3]} />
         </div>
@@ -85,7 +88,7 @@ export default function Logic() {
           <SquareComponent state={gameState[5]} />
         </div>
       </div>
-      <div className="row">
+      <div className="row gameRow">
         <div className="col center"  onClick={()=> onUserClicked(6)}>
           <SquareComponent state={gameState[6]}/>
         </div>

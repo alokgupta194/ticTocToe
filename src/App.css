@@ -28,10 +28,14 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(10deg);
   }
 }
-.bg{
+
+.bg {
+  height: 100vh;
   background-color: #10192a;
+  color: azure;
 }
